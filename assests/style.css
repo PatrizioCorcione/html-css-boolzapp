@@ -23,8 +23,33 @@ body{
 .d-flex{
   display: flex;
 }
+.direc-colum{
+  flex-direction: column;
+}
 .row .colum:first-child{
   width: 30%;
+}
+.focus,.write{
+  height: 50px;
+}
+.chat{
+  height: calc(100% - 100px);
+}
+.colum{
+  width: 100%;
+}
+.ricevuto{
+  background-color: grey;
+  border-radius: 10px;
+  margin-left: 50px;
+  width: 50%;
+}
+.inviato{
+  background-color: rgb(88, 235, 127);
+  border-radius: 10px;
+  margin-right: 50px;
+  width: 50%;
+  align-self: self-end;
 }
 
 
