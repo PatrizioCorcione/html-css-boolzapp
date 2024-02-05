@@ -179,9 +179,40 @@ body{
     .contatti{
       height: calc(100% - 70px);
     }
+    .inviato {
+      margin: 20px 80px;
+      width: 50%;
+      }
+      .ricevuto {
+        margin: 20px 80px;
+      width: 50%;
+      }
+}
+  
 
+  @media only screen and (max-width: 542px){
+
+    .row .colum:first-child {
+      display: none;
+      }
+      
+      .smile, .micro {
+      display: none;
+      }
+
+      .inp {
+      width: 100%;
+      margin: 0px 10px;
+      }
+      .inviato {
+        margin: 20px 60px;
+        width: 65%;
+        }
+        .ricevuto {
+          margin: 20px 60px;
+        width: 65%;
+        }
   }
-
 
 
 
