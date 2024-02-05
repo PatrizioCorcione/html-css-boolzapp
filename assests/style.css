@@ -109,7 +109,7 @@ body{
   margin: 10px;
 }
 .silence {
-  padding: 15px 12px;
+  padding: 7px 5px;
   border-radius: 50%;
   }
 .fa-bell-slash{
@@ -119,15 +119,15 @@ body{
   margin-left: 10px;
 }
 .cerca > button:nth-child(1) {
-  height: 35px;
-  padding: 2px 25px;
+  height: 96%;
+  width: 20%;
   float: left;
   border: none;
   background-color: white;
 }
 .cerca > input:nth-child(2) {
   width: 80%;
-  height: 35px;
+  height: 96%;
   border: none;
 }
 .contatti .focus{
@@ -160,7 +160,27 @@ body{
   width: 100%;
   height: 45px;
 }
+.fa-bell-slash {
+  color: #8edafc;
+  }
 
+
+  @media only screen and (max-width: 992px){
+    .notifiche,
+    .cerca,
+    .time,
+    .cont-txt,
+    .utility{
+      display: none;
+    }
+    .row .colum:first-child {
+      width: 8%;
+      }
+    .contatti{
+      height: calc(100% - 70px);
+    }
+
+  }
 
 
 
