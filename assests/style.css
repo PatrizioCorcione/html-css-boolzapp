@@ -9,7 +9,7 @@ img{
 body{
   height: 100vh;
   font-family: "Lato", sans-serif;
-  background-color: #009688;
+  background: linear-gradient(to bottom, #009688 0%,#009688 15%, #DADBD4 15%, #DADBD4 85%);
 }
 .container{
   height: 80vh;
