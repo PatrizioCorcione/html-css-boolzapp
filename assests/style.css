@@ -8,11 +8,17 @@ img{
 }
 body{
   font-family: "Lato", sans-serif;
-  background-color: rgb(119, 0, 0);
+  background-color: rgba(119, 0, 0, 0.317);
 }
 .container{
   max-width: 1200px;
   margin: 20px auto;
+}
+.scroll{
+  overflow: scroll;
+}
+.heig-avatar{
+  height: 50px;
 }
 .ali-cent{
   align-items: center;
@@ -35,9 +41,7 @@ body{
 .row .colum:first-child{
   width: 30%;
 }
-.focus,.write{
-  height: 50px;
-}
+
 .chat{
   height: calc(100% - 100px);
 }
@@ -63,7 +67,8 @@ body{
   border-radius: 50%;
   overflow: hidden;
 }
-.focus .img{
+.contatti{
+  height: calc(100% - 150px);
 
 }
 
