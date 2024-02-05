@@ -70,7 +70,14 @@ body{
 .colum{
   width: 100%;
 }
+.ricevuto .fa-solid{
+  margin: 0;
+}
+.inviato .fa-solid{
+  margin: 0;
+}
 .ricevuto{
+  display: flex;
   background-color: white;
   border-radius: 10px;
   margin: 20px 120px;
@@ -78,6 +85,7 @@ body{
   padding: 10px;
 }
 .inviato{
+  display: flex;
   background-color: #d5f9ba;
   border-radius: 10px;
   margin: 20px 120px;
