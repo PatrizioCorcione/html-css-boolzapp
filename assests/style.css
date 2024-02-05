@@ -191,7 +191,7 @@ body{
       display: none;
     }
     .row .colum:first-child {
-      width: 8%;
+      width: 75px;
       }
     .contatti{
       height: calc(100% - 70px);
