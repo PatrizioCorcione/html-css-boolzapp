@@ -8,17 +8,20 @@ img{
 }
 body{
   font-family: "Lato", sans-serif;
-  background-color: rgba(119, 0, 0, 0.317);
+  background-color: #009688;
 }
 .container{
   max-width: 1200px;
   margin: 20px auto;
 }
+.back-sky{
+  background-color: #8edafc;
+}
 .scroll{
   overflow: scroll;
 }
 .heig-avatar{
-  height: 50px;
+  height: 70px;
 }
 .ali-cent{
   align-items: center;
@@ -39,11 +42,11 @@ body{
   flex-direction: column;
 }
 .row .colum:first-child{
-  width: 30%;
+  width: 40%;
 }
 
 .chat{
-  height: calc(100% - 100px);
+  height: calc(100% - 140px);
 }
 .colum{
   width: 100%;
@@ -51,25 +54,64 @@ body{
 .ricevuto{
   background-color: grey;
   border-radius: 10px;
-  margin-left: 50px;
-  width: 50%;
+  margin: 20px 120px;
+  width: 40%;
+  padding: 10px;
 }
 .inviato{
   background-color: rgb(88, 235, 127);
   border-radius: 10px;
-  margin-right: 50px;
-  width: 50%;
+  margin: 20px 120px;
+  width: 40%;
   align-self: self-end;
+  padding: 10px;
 }
 .avatar{
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
   overflow: hidden;
 }
 .contatti{
-  height: calc(100% - 150px);
+  height: calc(100% - 200px);
 
+}
+.notifiche{
+  height: 80px;
+}
+.cerca{
+  padding: 7px 10px;
+  background-color: #e9e9ed;
+  height: 50px;
+}
+.focus,.notifiche{
+  padding: 0px 10px;
+}
+.fa-solid{
+  margin: 5px;
+}
+.silence {
+  padding: 15px 12px;
+  background-color: white;
+  border-radius: 50%;
+  }
+.fa-bell-slash{
+  font-size: 1.4rem;
+}
+.notifiche-txt {
+  margin-left: 10px;
+}
+.cerca > button:nth-child(1) {
+  height: 35px;
+  padding: 2px 25px;
+  float: left;
+  border: none;
+  background-color: white;
+}
+.cerca > input:nth-child(2) {
+  width: 80%;
+  height: 35px;
+  border: none;
 }
 
 
