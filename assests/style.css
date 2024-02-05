@@ -10,7 +10,22 @@ body{
   font-family: "Lato", sans-serif;
   background-color: rgb(119, 0, 0);
 }
-
+.container{
+  max-width: 1200px;
+  margin: 20px auto;
+}
+.debug{
+  border: 1px solid black;
+}
+.colum{
+  height: 550px;
+}
+.d-flex{
+  display: flex;
+}
+.row .colum:first-child{
+  width: 30%;
+}
 
 
 
