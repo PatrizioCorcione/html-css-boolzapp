@@ -57,6 +57,14 @@ body{
 
 /*UTILITY*/
 
+.posi-rela{
+  position: relative;
+}
+
+.posi-abso{
+  position: absolute;
+}
+
 .container{
   max-width: 1200px;
   margin: 20px auto;
@@ -258,6 +266,32 @@ body{
 
 .fa-chevron-down{
   padding-left: 20px;
+}
+
+.func-mess{
+  font-family: "Lato", sans-serif;
+  background-color: #b7b7b7;
+  right: 7px;
+  padding: 10px 15px;
+  line-height: 25px;
+  border-radius: 20px;
+  width: 160px;
+  display: none;
+}
+
+.action-chev:hover .func-mess{
+  display: block;
+}
+
+.func-mess p{
+  color: #009688;
+}
+
+.func-mess p:hover {
+  padding: 0px 5px;
+  border-radius: 20px;
+  background-color: white;
+
 }
 
 /*MEDIA 992*/
