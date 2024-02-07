@@ -1,3 +1,38 @@
+:root{
+  --bord-gray: #dcdcdc;
+  --body-back: #009688;
+  --clr-inda: #707070;
+  --clr-white: #ffffff;
+  --clr-sky: #8edafc;
+  --clr-gray-sec: #e9e9ed;
+  --clr-gray-tre: #808080;
+  --clr-send: #d5f9ba;
+  --clr-input: white;
+  --clr-ricevuto: white;
+  --clr-black: black;
+  --bg-desktop: linear-gradient(to bottom, #009688 0%,#009688 15%, #DADBD4 15%, #DADBD4 85%);
+  --bg-img-chat:url(../assests/img/mine.jpg);
+}
+/*DARK*/
+
+.dark{
+  --clr-black: gray;
+  --bord-gray: #000000;
+  --clr-inda: #4c4c4c;
+  --clr-white: #1b1a1a;
+  --clr-sky: #4e4e4e;
+  --clr-gray-sec: #000000;
+  --clr-gray-tre: #a09aa3;
+  --clr-send: #1b3e00;
+  --clr-input:gray;
+  --clr-ricevuto: gray;
+  --bg-desktop: linear-gradient(to bottom, #111111 0%,#333333 15%, #949494 15%, #c4c4c4 85%);
+  --bg-img-chat:url(../assests/img/dark-background-abstract-background-network-3d-background-3840x2160-8324.png);
+}
+
+
+/*RESET*/
+
 *{
   margin: 0;
   padding: 0;
@@ -40,10 +75,11 @@ img{
   width: 100%;
 }
 
+
 body{
   height: 100vh;
   font-family: "Lato", sans-serif;
-  background: linear-gradient(to bottom, #009688 0%,#009688 15%, #DADBD4 15%, #DADBD4 85%);
+  background: var(--bg-desktop);
 }
 
 .colum{
@@ -57,8 +93,12 @@ body{
 
 /*UTILITY*/
 
+.inp-clr{
+  background-color: var(--clr-input);
+}
+
 .bord-gray{
-  border-left: 2px solid gray;
+  border-left: 2px solid var(--bord-gray);
 }
 
 .posi-rela{
@@ -79,23 +119,23 @@ body{
 }
 
 .color-indaco{
-  color: #557e91;
+  color: var(--clr-inda);
 }
 
 .color-gray{
-  color: gray;
+  color: var(--clr-gray-tre);
 }
 
 .back-sky{
-  background-color: #8edafc;
+  background-color: var(--clr-sky);
 }
 
 .back-white{
-  background-color: white;
+  background-color: var(--clr-white);
 }
 
 .back-gray{
-  background-color: #e9e9ed;
+  background-color: var(--clr-gray-sec);
 }
 
 .scroll{
@@ -178,7 +218,7 @@ body{
   width: 20%;
   float: left;
   border: none;
-  background-color: white;
+  background-color: var(--clr-white);
 }
 
 .cerca > input:nth-child(2) {
@@ -188,11 +228,11 @@ body{
 }
 
 .contatti .focus{
-  background-color: white;
+  background-color: var(--clr-white);
 }
 
 .utility .fa-solid{
-  color: gray;
+  color: var(--clr-gray-tre);
   font-size: 1.4rem;
 }
 
@@ -209,10 +249,14 @@ body{
 }
 
 .fa-bell-slash {
-  color: #8edafc;
+  color: var(--clr-sky);
   }
 
 /*SECONDA COLONNA*/
+
+.img-txt strong{
+  color: var(--clr-black);
+}
 
 .chat{
   height: calc(100% - 140px);
@@ -228,7 +272,7 @@ body{
 
 .ricevuto{
   display: flex;
-  background-color: white;
+  background-color: var(--clr-ricevuto);
   border-radius: 10px;
   margin: 20px 120px;
   width: 40%;
@@ -237,7 +281,7 @@ body{
 
 .inviato{
   display: flex;
-  background-color: #d5f9ba;
+  background-color: var(--clr-send);
   border-radius: 10px;
   margin: 20px 120px;
   width: 40%;
@@ -246,7 +290,7 @@ body{
 }
 
 .chat{
-  background-image: url(../assests/img/mine.jpg);
+  background-image: var(--bg-img-chat);
 }
 
 .smile,.micro{
@@ -274,7 +318,7 @@ body{
 
 .func-mess{
   font-family: "Lato", sans-serif;
-  background-color: #b7b7b7;
+  background-color: var(--clr-gray-tre);
   right: 7px;
   padding: 10px 15px;
   line-height: 25px;
@@ -287,14 +331,10 @@ body{
   display: block;
 }
 
-.func-mess p{
-  color: #009688;
-}
-
 .func-mess p:hover {
   padding: 0px 5px;
   border-radius: 20px;
-  background-color: white;
+  background-color: var(--clr-white);
 
 }
 
