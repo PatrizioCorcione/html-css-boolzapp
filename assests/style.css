@@ -23,7 +23,7 @@
   --clr-sky: #4e4e4e;
   --clr-gray-sec: #000000;
   --clr-gray-tre: #a09aa3;
-  --clr-send: #1b3e00;
+  --clr-send: #250000;
   --clr-input:gray;
   --clr-ricevuto: gray;
   --bg-desktop: linear-gradient(to bottom, #111111 0%,#333333 15%, #949494 15%, #c4c4c4 85%);
@@ -272,6 +272,7 @@ body{
 
 .ricevuto{
   display: flex;
+  color: var(--clr-inda);
   background-color: var(--clr-ricevuto);
   border-radius: 10px;
   margin: 20px 120px;
@@ -281,6 +282,7 @@ body{
 
 .inviato{
   display: flex;
+  color: var(--clr-ricevuto);
   background-color: var(--clr-send);
   border-radius: 10px;
   margin: 20px 120px;
